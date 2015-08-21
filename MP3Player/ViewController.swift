@@ -11,8 +11,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    var mp3Player:MP3Player!
-    var timer:NSTimer!
+    var mp3Player:MP3Player?
+    var timer:NSTimer?
     
     @IBOutlet weak var trackName: UILabel!
     @IBOutlet weak var trackTime: UILabel!
